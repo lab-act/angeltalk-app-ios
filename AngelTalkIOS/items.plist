@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>itemImage</key>
+		<string>icon_food</string>
+		<key>itemLabel</key>
+		<string>food</string>
+		<key>itemBackground</key>
+		<string>category_red</string>
+	</dict>
+	<dict>
+		<key>itemImage</key>
+		<string>icon_puzzle</string>
+		<key>itemLabel</key>
+		<string>toy</string>
+		<key>itemBackground</key>
+		<string>category_orange</string>
+	</dict>
+	<dict>
+		<key>itemImage</key>
+		<string>icon_bus</string>
+		<key>itemLabel</key>
+		<string>vehicle</string>
+		<key>itemBackground</key>
+		<string>category_yellow</string>
+	</dict>
+	<dict>
+		<key>itemImage</key>
+		<string>icon_school</string>
+		<key>itemLabel</key>
+		<string>places</string>
+		<key>itemBackground</key>
+		<string>category_green</string>
+	</dict>
+	<dict>
+		<key>itemImage</key>
+		<string>icon_friend</string>
+		<key>itemLabel</key>
+		<string>people</string>
+		<key>itemBackground</key>
+		<string>category_blue</string>
+	</dict>
+</array>
+</plist>

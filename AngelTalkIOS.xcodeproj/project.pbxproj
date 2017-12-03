@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		234794A61E4DA999007BD746 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234794A51E4DA999007BD746 /* AppDelegate.swift */; };
+		234794AB1E4DA999007BD746 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234794A91E4DA999007BD746 /* Main.storyboard */; };
+		234794B01E4DA999007BD746 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234794AE1E4DA999007BD746 /* LaunchScreen.storyboard */; };
+		234794BB1E4DA999007BD746 /* AngelTalkIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234794BA1E4DA999007BD746 /* AngelTalkIOSTests.swift */; };
+		234794C61E4DA999007BD746 /* AngelTalkIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234794C51E4DA999007BD746 /* AngelTalkIOSUITests.swift */; };
+		235AC0D21E4DAB2B0039B576 /* GalleryItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235AC0D11E4DAB2B0039B576 /* GalleryItemCollectionViewCell.swift */; };
+		235AC0D71E4DAB3F0039B576 /* items.plist in Resources */ = {isa = PBXBuildFile; fileRef = 235AC0D31E4DAB3F0039B576 /* items.plist */; };
+		235AC0D81E4DAB3F0039B576 /* GalleryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235AC0D41E4DAB3F0039B576 /* GalleryItem.swift */; };
+		235AC0E01E4DAC290039B576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 235AC0DF1E4DAC290039B576 /* Assets.xcassets */; };
+		235AC0E31E4DAC730039B576 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 235AC0E51E4DAC730039B576 /* Localizable.strings */; };
+		44B7CAB81EE042B2006FC443 /* CategoryListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B7CAB71EE042B2006FC443 /* CategoryListController.swift */; };
+		8E4A3D2C1F2F4816004BEFC9 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4A3D2B1F2F4816004BEFC9 /* Category.swift */; };
+		8E4A3D2E1F2F489D004BEFC9 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4A3D2D1F2F489D004BEFC9 /* Card.swift */; };
+		8E5805CB1EF01BB00083954E /* NotoSansKR-DemiLight-Hestia.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8E5805C51EF01BB00083954E /* NotoSansKR-DemiLight-Hestia.otf */; };
+		8E5805CC1EF01BB00083954E /* NotoSansKR-Medium-Hestia.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8E5805C61EF01BB00083954E /* NotoSansKR-Medium-Hestia.otf */; };
+		8E5805CD1EF01BB00083954E /* NotoSansKR-Regular-Hestia.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8E5805C71EF01BB00083954E /* NotoSansKR-Regular-Hestia.otf */; };
+		8E5805CE1EF01BB00083954E /* Roboto-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8E5805C81EF01BB00083954E /* Roboto-Light.otf */; };
+		8E5805CF1EF01BB00083954E /* Roboto-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8E5805C91EF01BB00083954E /* Roboto-Medium.otf */; };
+		8E5805D01EF01BB00083954E /* Roboto-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8E5805CA1EF01BB00083954E /* Roboto-Regular.otf */; };
+		8E5805F21EF0222F0083954E /* CardPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5805F11EF0222F0083954E /* CardPageViewController.swift */; };
+		97CDA669785C0307E91FA98E /* Pods_AngelTalkIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D91C5668948DEF8B7FE2D3 /* Pods_AngelTalkIOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		234794B71E4DA999007BD746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2347949A1E4DA999007BD746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 234794A11E4DA999007BD746;
+			remoteInfo = AngelTalkIOS;
+		};
+		234794C21E4DA999007BD746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2347949A1E4DA999007BD746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 234794A11E4DA999007BD746;
+			remoteInfo = AngelTalkIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		234794A21E4DA999007BD746 /* AngelTalkIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngelTalkIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		234794A51E4DA999007BD746 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		234794AA1E4DA999007BD746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		234794AF1E4DA999007BD746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		234794B11E4DA999007BD746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		234794B61E4DA999007BD746 /* AngelTalkIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngelTalkIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		234794BA1E4DA999007BD746 /* AngelTalkIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngelTalkIOSTests.swift; sourceTree = "<group>"; };
+		234794BC1E4DA999007BD746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		234794C11E4DA999007BD746 /* AngelTalkIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngelTalkIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		234794C51E4DA999007BD746 /* AngelTalkIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngelTalkIOSUITests.swift; sourceTree = "<group>"; };
+		234794C71E4DA999007BD746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		235AC0D11E4DAB2B0039B576 /* GalleryItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		235AC0D31E4DAB3F0039B576 /* items.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = items.plist; sourceTree = "<group>"; };
+		235AC0D41E4DAB3F0039B576 /* GalleryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryItem.swift; sourceTree = "<group>"; };
+		235AC0DF1E4DAC290039B576 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		235AC0E41E4DAC730039B576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		235AC0E61E4DAC760039B576 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		44B7CAB71EE042B2006FC443 /* CategoryListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryListController.swift; sourceTree = "<group>"; };
+		8E4A3D2B1F2F4816004BEFC9 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		8E4A3D2D1F2F489D004BEFC9 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		8E5805C51EF01BB00083954E /* NotoSansKR-DemiLight-Hestia.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-DemiLight-Hestia.otf"; sourceTree = "<group>"; };
+		8E5805C61EF01BB00083954E /* NotoSansKR-Medium-Hestia.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Medium-Hestia.otf"; sourceTree = "<group>"; };
+		8E5805C71EF01BB00083954E /* NotoSansKR-Regular-Hestia.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Regular-Hestia.otf"; sourceTree = "<group>"; };
+		8E5805C81EF01BB00083954E /* Roboto-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.otf"; sourceTree = "<group>"; };
+		8E5805C91EF01BB00083954E /* Roboto-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.otf"; sourceTree = "<group>"; };
+		8E5805CA1EF01BB00083954E /* Roboto-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.otf"; sourceTree = "<group>"; };
+		8E5805F11EF0222F0083954E /* CardPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPageViewController.swift; sourceTree = "<group>"; };
+		B0D91C5668948DEF8B7FE2D3 /* Pods_AngelTalkIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AngelTalkIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC09A828A4151F246BCAA332 /* Pods-AngelTalkIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngelTalkIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AngelTalkIOS/Pods-AngelTalkIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F86EABA242F3B1FB71E79867 /* Pods-AngelTalkIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngelTalkIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-AngelTalkIOS/Pods-AngelTalkIOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2347949F1E4DA999007BD746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97CDA669785C0307E91FA98E /* Pods_AngelTalkIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234794B31E4DA999007BD746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234794BE1E4DA999007BD746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		234794991E4DA999007BD746 = {
+			isa = PBXGroup;
+			children = (
+				234794A41E4DA999007BD746 /* AngelTalkIOS */,
+				234794B91E4DA999007BD746 /* AngelTalkIOSTests */,
+				234794C41E4DA999007BD746 /* AngelTalkIOSUITests */,
+				234794A31E4DA999007BD746 /* Products */,
+				A9A25B4363468C059923B4C0 /* Pods */,
+				3E85054E627E443DFD9F36F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		234794A31E4DA999007BD746 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				234794A21E4DA999007BD746 /* AngelTalkIOS.app */,
+				234794B61E4DA999007BD746 /* AngelTalkIOSTests.xctest */,
+				234794C11E4DA999007BD746 /* AngelTalkIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		234794A41E4DA999007BD746 /* AngelTalkIOS */ = {
+			isa = PBXGroup;
+			children = (
+				8E4A3D2A1F2F45AD004BEFC9 /* Model */,
+				234794A51E4DA999007BD746 /* AppDelegate.swift */,
+				234794A91E4DA999007BD746 /* Main.storyboard */,
+				44B7CAB71EE042B2006FC443 /* CategoryListController.swift */,
+				8E5805F11EF0222F0083954E /* CardPageViewController.swift */,
+				235AC0D41E4DAB3F0039B576 /* GalleryItem.swift */,
+				235AC0D11E4DAB2B0039B576 /* GalleryItemCollectionViewCell.swift */,
+				235AC0D31E4DAB3F0039B576 /* items.plist */,
+				235AC0DF1E4DAC290039B576 /* Assets.xcassets */,
+				234794B11E4DA999007BD746 /* Info.plist */,
+				234794AE1E4DA999007BD746 /* LaunchScreen.storyboard */,
+				235AC0E51E4DAC730039B576 /* Localizable.strings */,
+				8E5805C41EF01B480083954E /* Resources */,
+			);
+			path = AngelTalkIOS;
+			sourceTree = "<group>";
+		};
+		234794B91E4DA999007BD746 /* AngelTalkIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				234794BA1E4DA999007BD746 /* AngelTalkIOSTests.swift */,
+				234794BC1E4DA999007BD746 /* Info.plist */,
+			);
+			path = AngelTalkIOSTests;
+			sourceTree = "<group>";
+		};
+		234794C41E4DA999007BD746 /* AngelTalkIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				234794C51E4DA999007BD746 /* AngelTalkIOSUITests.swift */,
+				234794C71E4DA999007BD746 /* Info.plist */,
+			);
+			path = AngelTalkIOSUITests;
+			sourceTree = "<group>";
+		};
+		3E85054E627E443DFD9F36F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0D91C5668948DEF8B7FE2D3 /* Pods_AngelTalkIOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E4A3D2A1F2F45AD004BEFC9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E4A3D2B1F2F4816004BEFC9 /* Category.swift */,
+				8E4A3D2D1F2F489D004BEFC9 /* Card.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8E5805C41EF01B480083954E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E5805C51EF01BB00083954E /* NotoSansKR-DemiLight-Hestia.otf */,
+				8E5805C61EF01BB00083954E /* NotoSansKR-Medium-Hestia.otf */,
+				8E5805C71EF01BB00083954E /* NotoSansKR-Regular-Hestia.otf */,
+				8E5805C81EF01BB00083954E /* Roboto-Light.otf */,
+				8E5805C91EF01BB00083954E /* Roboto-Medium.otf */,
+				8E5805CA1EF01BB00083954E /* Roboto-Regular.otf */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		A9A25B4363468C059923B4C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC09A828A4151F246BCAA332 /* Pods-AngelTalkIOS.debug.xcconfig */,
+				F86EABA242F3B1FB71E79867 /* Pods-AngelTalkIOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		234794A11E4DA999007BD746 /* AngelTalkIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 234794CA1E4DA999007BD746 /* Build configuration list for PBXNativeTarget "AngelTalkIOS" */;
+			buildPhases = (
+				FD255B665336F83B3EF6B4F3 /* [CP] Check Pods Manifest.lock */,
+				2347949E1E4DA999007BD746 /* Sources */,
+				2347949F1E4DA999007BD746 /* Frameworks */,
+				234794A01E4DA999007BD746 /* Resources */,
+				670AD1E8FA214ED9BA1D8DDB /* [CP] Embed Pods Frameworks */,
+				912DCD0AF0BAA856130E59D7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AngelTalkIOS;
+			productName = AngelTalkIOS;
+			productReference = 234794A21E4DA999007BD746 /* AngelTalkIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		234794B51E4DA999007BD746 /* AngelTalkIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 234794CD1E4DA999007BD746 /* Build configuration list for PBXNativeTarget "AngelTalkIOSTests" */;
+			buildPhases = (
+				234794B21E4DA999007BD746 /* Sources */,
+				234794B31E4DA999007BD746 /* Frameworks */,
+				234794B41E4DA999007BD746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				234794B81E4DA999007BD746 /* PBXTargetDependency */,
+			);
+			name = AngelTalkIOSTests;
+			productName = AngelTalkIOSTests;
+			productReference = 234794B61E4DA999007BD746 /* AngelTalkIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		234794C01E4DA999007BD746 /* AngelTalkIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 234794D01E4DA999007BD746 /* Build configuration list for PBXNativeTarget "AngelTalkIOSUITests" */;
+			buildPhases = (
+				234794BD1E4DA999007BD746 /* Sources */,
+				234794BE1E4DA999007BD746 /* Frameworks */,
+				234794BF1E4DA999007BD746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				234794C31E4DA999007BD746 /* PBXTargetDependency */,
+			);
+			name = AngelTalkIOSUITests;
+			productName = AngelTalkIOSUITests;
+			productReference = 234794C11E4DA999007BD746 /* AngelTalkIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2347949A1E4DA999007BD746 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = sds;
+				TargetAttributes = {
+					234794A11E4DA999007BD746 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					234794B51E4DA999007BD746 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 234794A11E4DA999007BD746;
+					};
+					234794C01E4DA999007BD746 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 234794A11E4DA999007BD746;
+					};
+				};
+			};
+			buildConfigurationList = 2347949D1E4DA999007BD746 /* Build configuration list for PBXProject "AngelTalkIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 234794991E4DA999007BD746;
+			productRefGroup = 234794A31E4DA999007BD746 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				234794A11E4DA999007BD746 /* AngelTalkIOS */,
+				234794B51E4DA999007BD746 /* AngelTalkIOSTests */,
+				234794C01E4DA999007BD746 /* AngelTalkIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		234794A01E4DA999007BD746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5805D01EF01BB00083954E /* Roboto-Regular.otf in Resources */,
+				8E5805CD1EF01BB00083954E /* NotoSansKR-Regular-Hestia.otf in Resources */,
+				235AC0E31E4DAC730039B576 /* Localizable.strings in Resources */,
+				234794B01E4DA999007BD746 /* LaunchScreen.storyboard in Resources */,
+				8E5805CC1EF01BB00083954E /* NotoSansKR-Medium-Hestia.otf in Resources */,
+				234794AB1E4DA999007BD746 /* Main.storyboard in Resources */,
+				8E5805CF1EF01BB00083954E /* Roboto-Medium.otf in Resources */,
+				8E5805CB1EF01BB00083954E /* NotoSansKR-DemiLight-Hestia.otf in Resources */,
+				235AC0E01E4DAC290039B576 /* Assets.xcassets in Resources */,
+				8E5805CE1EF01BB00083954E /* Roboto-Light.otf in Resources */,
+				235AC0D71E4DAB3F0039B576 /* items.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234794B41E4DA999007BD746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234794BF1E4DA999007BD746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		670AD1E8FA214ED9BA1D8DDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AngelTalkIOS/Pods-AngelTalkIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		912DCD0AF0BAA856130E59D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AngelTalkIOS/Pods-AngelTalkIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD255B665336F83B3EF6B4F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2347949E1E4DA999007BD746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235AC0D21E4DAB2B0039B576 /* GalleryItemCollectionViewCell.swift in Sources */,
+				8E5805F21EF0222F0083954E /* CardPageViewController.swift in Sources */,
+				8E4A3D2E1F2F489D004BEFC9 /* Card.swift in Sources */,
+				234794A61E4DA999007BD746 /* AppDelegate.swift in Sources */,
+				235AC0D81E4DAB3F0039B576 /* GalleryItem.swift in Sources */,
+				44B7CAB81EE042B2006FC443 /* CategoryListController.swift in Sources */,
+				8E4A3D2C1F2F4816004BEFC9 /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234794B21E4DA999007BD746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234794BB1E4DA999007BD746 /* AngelTalkIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234794BD1E4DA999007BD746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234794C61E4DA999007BD746 /* AngelTalkIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		234794B81E4DA999007BD746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 234794A11E4DA999007BD746 /* AngelTalkIOS */;
+			targetProxy = 234794B71E4DA999007BD746 /* PBXContainerItemProxy */;
+		};
+		234794C31E4DA999007BD746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 234794A11E4DA999007BD746 /* AngelTalkIOS */;
+			targetProxy = 234794C21E4DA999007BD746 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		234794A91E4DA999007BD746 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				234794AA1E4DA999007BD746 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		234794AE1E4DA999007BD746 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				234794AF1E4DA999007BD746 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		235AC0E51E4DAC730039B576 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				235AC0E41E4DAC730039B576 /* Base */,
+				235AC0E61E4DAC760039B576 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		234794C81E4DA999007BD746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		234794C91E4DA999007BD746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		234794CB1E4DA999007BD746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC09A828A4151F246BCAA332 /* Pods-AngelTalkIOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AngelTalkIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.act.AngelTalkIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		234794CC1E4DA999007BD746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F86EABA242F3B1FB71E79867 /* Pods-AngelTalkIOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AngelTalkIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.act.AngelTalkIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		234794CE1E4DA999007BD746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AngelTalkIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.act.AngelTalkIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AngelTalkIOS.app/AngelTalkIOS";
+			};
+			name = Debug;
+		};
+		234794CF1E4DA999007BD746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AngelTalkIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.act.AngelTalkIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AngelTalkIOS.app/AngelTalkIOS";
+			};
+			name = Release;
+		};
+		234794D11E4DA999007BD746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AngelTalkIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.act.AngelTalkIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AngelTalkIOS;
+			};
+			name = Debug;
+		};
+		234794D21E4DA999007BD746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AngelTalkIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.act.AngelTalkIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AngelTalkIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2347949D1E4DA999007BD746 /* Build configuration list for PBXProject "AngelTalkIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234794C81E4DA999007BD746 /* Debug */,
+				234794C91E4DA999007BD746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		234794CA1E4DA999007BD746 /* Build configuration list for PBXNativeTarget "AngelTalkIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234794CB1E4DA999007BD746 /* Debug */,
+				234794CC1E4DA999007BD746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		234794CD1E4DA999007BD746 /* Build configuration list for PBXNativeTarget "AngelTalkIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234794CE1E4DA999007BD746 /* Debug */,
+				234794CF1E4DA999007BD746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		234794D01E4DA999007BD746 /* Build configuration list for PBXNativeTarget "AngelTalkIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234794D11E4DA999007BD746 /* Debug */,
+				234794D21E4DA999007BD746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2347949A1E4DA999007BD746 /* Project object */;
+}

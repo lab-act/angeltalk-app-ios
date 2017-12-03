@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  AngelTalkIOS
+
+  Created by 신황규_23234_솔루션개발그룹_Gerard on 2/10/17.
+  Copyright © 2017 sds. All rights reserved.
+*/
+
+"angeltalk" = "AngelTalk";
+"food" = "Food";
+"toy" = "Toy";
+"vehicle" = "Vehicle";
+"places" = "Places";
+"people" = "People";

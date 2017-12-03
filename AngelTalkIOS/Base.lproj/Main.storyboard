@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.otf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Category List View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="CategoryListViewController" customModule="AngelTalkIOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" scrollEnabled="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="eA7-BG-o1g">
+                                <rect key="frame" x="22" y="128" width="343" height="547"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="RZK-nc-e2H">
+                                    <size key="itemSize" width="150" height="150"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="TopLeft" reuseIdentifier="GalleryItemCollectionViewCell" id="cRm-Wz-Zmq" customClass="GalleryItemCollectionViewCell" customModule="AngelTalkIOS" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Otf-Ej-k1a">
+                                                    <rect key="frame" x="40" y="26.5" width="60" height="60"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="Otf-Ej-k1a" secondAttribute="height" multiplier="1:1" id="bBj-qp-hjd"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pVY-x4-T5u">
+                                                    <rect key="frame" x="46" y="93.5" width="49" height="23.5"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="20"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="Otf-Ej-k1a" firstAttribute="centerY" secondItem="cRm-Wz-Zmq" secondAttribute="centerY" multiplier="0.75" id="JzA-fY-JZb"/>
+                                            <constraint firstItem="pVY-x4-T5u" firstAttribute="centerX" secondItem="cRm-Wz-Zmq" secondAttribute="centerX" multiplier="0.93" id="QZ9-Wg-TsC"/>
+                                            <constraint firstItem="pVY-x4-T5u" firstAttribute="centerY" secondItem="cRm-Wz-Zmq" secondAttribute="centerY" multiplier="1.4" id="VKj-S1-8V2"/>
+                                            <constraint firstItem="Otf-Ej-k1a" firstAttribute="centerX" secondItem="cRm-Wz-Zmq" secondAttribute="centerX" multiplier="0.93" id="oba-Ob-zlH"/>
+                                            <constraint firstItem="Otf-Ej-k1a" firstAttribute="width" secondItem="cRm-Wz-Zmq" secondAttribute="width" multiplier="0.4" id="zF7-Xx-twW"/>
+                                        </constraints>
+                                        <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
+                                        <connections>
+                                            <outlet property="itemImageView" destination="Otf-Ej-k1a" id="ua5-Sk-Fe0"/>
+                                            <outlet property="itemLabelView" destination="pVY-x4-T5u" id="Fcr-la-JFb"/>
+                                            <segue destination="fvo-eJ-Cb6" kind="showDetail" id="PLE-8Y-NYm"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="87F-a1-WWm"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="sC3-Lf-H7O"/>
+                                </connections>
+                            </collectionView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nsT-d5-yJy">
+                                <rect key="frame" x="16" y="20" width="343" height="108"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_angeltalk" translatesAutoresizingMaskIntoConstraints="NO" id="1zO-Il-uXu">
+                                        <rect key="frame" x="59.5" y="35" width="224" height="38"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="224" id="nDM-CO-jMP"/>
+                                            <constraint firstAttribute="width" secondItem="1zO-Il-uXu" secondAttribute="height" multiplier="5.93:1" id="xPv-UZ-cCx"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.83314443005181349" green="0.83314443005181349" blue="0.83314443005181349" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="1zO-Il-uXu" firstAttribute="centerX" secondItem="nsT-d5-yJy" secondAttribute="centerX" id="3he-fo-hg2"/>
+                                    <constraint firstItem="1zO-Il-uXu" firstAttribute="centerY" secondItem="nsT-d5-yJy" secondAttribute="centerY" id="nde-wa-xnT"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="nsT-d5-yJy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="7hG-Kq-14r"/>
+                            <constraint firstItem="eA7-BG-o1g" firstAttribute="leadingMargin" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="FsB-eY-e4Y"/>
+                            <constraint firstAttribute="trailing" secondItem="eA7-BG-o1g" secondAttribute="trailing" constant="10" id="ITE-Gm-FIT"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="eA7-BG-o1g" secondAttribute="bottomMargin" id="Kgg-7f-fz0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nsT-d5-yJy" secondAttribute="trailing" id="SrA-wK-QsY"/>
+                            <constraint firstItem="eA7-BG-o1g" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.82" id="T4V-Ky-kbc"/>
+                            <constraint firstItem="nsT-d5-yJy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="XIZ-yM-fgq"/>
+                            <constraint firstItem="eA7-BG-o1g" firstAttribute="top" secondItem="nsT-d5-yJy" secondAttribute="bottom" id="u4Y-5u-zg3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="eA7-BG-o1g" id="oal-ge-4Lt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
+        </scene>
+        <!--Card Page View Controller-->
+        <scene sceneID="rdw-Xp-Qut">
+            <objects>
+                <viewController storyboardIdentifier="CardPageViewStoryboard" useStoryboardIdentifierAsRestorationIdentifier="YES" id="f3i-Yb-VSg" userLabel="Card Page View Controller" customClass="CardPageViewController" customModule="AngelTalkIOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="i1A-Eo-oRF"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pc4-SY-tKI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ma9-lb-2gS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kQm-lS-pn7">
+                                <rect key="frame" x="67" y="177" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83317965269088745" green="0.56517825254669374" blue="0.75972307232280423" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ye0-UR-9om">
+                                <rect key="frame" x="67" y="41" width="48" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="soF-1H-u8g">
+                                <rect key="frame" x="70" y="355" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="labe" destination="soF-1H-u8g" id="YxK-dT-6xI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZfA-wj-aet" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1648.8" y="54.422788605697157"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="W5S-Ta-3Af">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fvo-eJ-Cb6" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="hBL-Wv-xBS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="f3i-Yb-VSg" kind="relationship" relationship="rootViewController" id="kO9-gg-zbx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bJj-Xr-Ipw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="804" y="493"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo_angeltalk" width="186" height="31"/>
+    </resources>
+</document>
